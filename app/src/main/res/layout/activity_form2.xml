@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:orientation="vertical">
+
+        <!-- R2R -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R2R"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_r2r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="E.g. 1:2, 1:3"
+            android:minHeight="57dp"/>
+
+    <!-- ENTRY POINT -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTRY POINT"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_entry_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="E.g 350 "
+        android:inputType="numberDecimal"
+        android:minHeight="57dp"/>
+
+    <!-- STOPLOSS -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOPLOSS"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_stoploss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="E.g. 310 "
+        android:inputType="numberDecimal"
+        android:minHeight="57dp"/>
+
+    <!-- TARGET -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TARGET"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="E.g. 450"
+        android:inputType="numberDecimal"
+        android:minHeight="57dp"/>
+
+    <!-- EXIT PRICE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXIT PRICE"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_exit_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="E.g. 500 "
+        android:inputType="numberDecimal"
+        android:minHeight="57dp"/>
+
+        <!-- POINTS -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POINTS"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="E.g. 150 "
+            android:inputType="numberDecimal"
+            android:minHeight="57dp"/>
+
+        <!-- PNL -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PNL"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_pnl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="E.g. + 22,500"
+            android:inputType="numberDecimal"
+            android:minHeight="57dp"/>
+
+        <!-- CAPITAL -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CAPITAL"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_capital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="E.g. 52,500"
+            android:inputType="numberDecimal"
+            android:minHeight="57dp"/>
+
+        <!-- CONFIDENCE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONFIDENCE LEVEL"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_confidence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="E.g. 1 TO 10"
+            android:inputType="text"
+            android:minHeight="57dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginBottom="57dp"
+            android:minHeight="57dp">
+
+
+            <!-- Previous Button aligned to the left -->
+            <Button
+                android:id="@+id/btn_prev"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#32357a"
+                android:text="Prev"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="50dp"/>
+
+            <!-- Next Button aligned to the right -->
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#32357a"
+                android:text="Next"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="22dp"
+                android:minHeight="57dp"
+                android:layout_marginBottom="50dp"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>
